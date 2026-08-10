@@ -4,7 +4,7 @@
 
 Templates, agent skills, and demos for the pattern of using an AI agent to drive consumer purchase research — from defining a precise spec to matching products and checking online shopping sources.
 
-**Last Updated:** April 2026
+**Last Updated:** August 2026
 
 ---
 
@@ -60,6 +60,16 @@ Claude Code plugin bundling agent skills for online shopping in Israel — compa
 Worked example of the pattern end-to-end — captured spec, retailer catalog screenshots, and AI-generated recommendations for a real consumer purchase. Useful as a reference when trying the pattern for the first time.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Shopping-Eval-Demo)
+
+---
+
+### Agentic Purchase Pipeline
+
+The pattern written up as **eight explicit stages**, with a full worked example — a hardware purchase specified, researched, reversed four times, and ordered. Where the shopping-eval demo captures a single pass over screenshotted catalogues, this one captures the *loop*: research feeding back and changing the spec, which turned out to be where most of the value is.
+
+Two findings from the worked run are generalisable to the whole pattern: compare **landed cost, not list price** (a $40 shipping quote overturned the recommendation on the last step), and **drive the real storefront** rather than trusting search results, because search does not show variant-level stock.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Agentic-Purchase-Pipeline)
 
 ---
 
