@@ -1,6 +1,6 @@
 # Agent Assisted Purchase Research Index
 
-[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)
+[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Start-Here)
 
 Templates, agent skills, and demos for the pattern of using an AI agent to drive consumer purchase research — from defining a precise spec to matching products and checking online shopping sources.
 
