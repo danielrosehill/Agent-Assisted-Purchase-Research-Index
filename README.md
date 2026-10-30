@@ -4,7 +4,7 @@
 
 Templates, agent skills, and demos for the pattern of using an AI agent to drive consumer purchase research — from defining a precise spec to matching products and checking online shopping sources.
 
-**Last Updated:** August 2026
+**Last Updated:** October 2026
 
 ---
 
@@ -36,20 +36,7 @@ Treat the memory layer as part of the pattern, not an optional add-on — it's w
 
 ## Table of Contents
 
-- [Agent Skills](#agent-skills)
 - [Demos](#demos)
-- [Related Plugins](#related-plugins)
-- [Templates](#templates)
-
----
-
-## Agent Skills
-
-### Israel Online Shopping Skill
-
-Claude Code plugin bundling agent skills for online shopping in Israel — comparison shopping across domestic retailers, category-based search, and Israel-vs-international price checks. Ships with Playwright and Tavily MCP, and is a drop-in building block for the Israel-specific template below.
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Israel-Online-Shopping-Skill)
 
 ---
 
@@ -70,32 +57,6 @@ The pattern written up as **eight explicit stages**, with a full worked example 
 Two findings from the worked run are generalisable to the whole pattern: compare **landed cost, not list price** (a $40 shipping quote overturned the recommendation on the last step), and **drive the real storefront** rather than trusting search results, because search does not show variant-level stock.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Agentic-Purchase-Pipeline)
-
----
-
-## Related Plugins
-
-### New Repo From Template Plugin
-
-Claude Code plugin that spins up a new GitHub repo from any of Daniel's template repos — including both purchase-research templates below — fetched live from the Repo-Starters-And-Templates-Index. The recommended entry point for starting a new purchase-research workspace.
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/New-Repo-From-Template-Plugin)
-
----
-
-## Templates
-
-### Claude Israel Shopping Recommender Template
-
-Israel-focused variant of the purchasing-assistant pattern — domestic-first product evaluation, Amazon-shippability check, and AliExpress fallback, with the Israel Online Shopping skills bundled in. Use this when the target market is Israel.
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Israel-Shopping-Recommender-Template)
-
-### Claude Purchasing Assistant
-
-General-purpose Claude Code template for purchase planning — interviews the user to build a spec, then runs product-matching and availability passes. The market-agnostic baseline; fork this when no region-specific template fits.
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat&logo=github)](https://github.com/danielrosehill/Claude-Purchasing-Assistant)
 
 ---
 
